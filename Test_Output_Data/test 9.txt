@@ -1,0 +1,10 @@
+FUNCTION strongweak(points) RETURNS STRING
+    CASE OF points
+        5: RETURN "Strong"
+        2 < points < 5: RETURN "Medium"
+        OTHERWISE RETURN "Weak"
+    ENDCASE
+ENDFUNCTION
+
+CALL strongweak(4)
+CALL strongweak(3)

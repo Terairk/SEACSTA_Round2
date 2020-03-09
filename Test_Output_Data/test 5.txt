@@ -1,0 +1,16 @@
+OUTPUT "Are you wearing a mask?"
+INPUT mask
+OUTPUT "Are you wearing scrubs?"
+INPUT scrubs
+
+IF mask = "yes"
+    THEN
+        IF scrubs = "yes"
+            THEN
+                OUTPUT "You may enter the OT"
+            ELSE
+                OUTPUT "You may not enter the OT"
+        ENDIF
+    ELSE
+        OUTPUT "You may not enter the OT"
+ENDIF

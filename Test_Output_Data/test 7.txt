@@ -1,0 +1,11 @@
+correct <- FALSE
+WHILE NOT correct DO
+    OUTPUT "What is 10+9?"
+    INPUT answer
+    IF answer = "19"
+        THEN
+            correct <- TRUE
+        ELSE
+            OUTPUT "That is not correct"
+    ENDIF
+ENDWHILE

@@ -1,0 +1,4 @@
+OUTPUT "Please input your team name"
+INPUT team_name
+message <- "Congratulations "
+OUTPUT message, team_name

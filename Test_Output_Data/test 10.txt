@@ -1,0 +1,11 @@
+PROCEDURE printDeck
+    FOR i <- 1 TO 11
+        OUTPUT "Red ", NUM_TO_STRING(i)
+        OUTPUT "Yellow ", NUM_TO_STRING(i)
+        OUTPUT "Green ", NUM_TO_STRING(i)
+        OUTPUT "Blue ", NUM_TO_STRING(i)
+    ENDFOR
+    OUTPUT "Draw 4"
+ENDPROCEDURE
+
+CALL printDeck

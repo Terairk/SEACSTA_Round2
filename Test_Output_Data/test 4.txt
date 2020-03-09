@@ -1,0 +1,8 @@
+OUTPUT "Please insert your age"
+INPUT age
+age <- STRING_TO_NUM(age)
+CASE OF age
+    < 11: OUTPUT "You must be in primary"
+    < 19: OUTPUT "You must be in secondary"
+    OTHERWISE OUTPUT "You must have graduated high school"
+ENDCASE

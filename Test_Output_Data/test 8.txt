@@ -1,0 +1,4 @@
+REPEAT
+    OUTPUT "Are you annoyed yet"
+    INPUT annoyed
+UNTIL annoyed = "yes"

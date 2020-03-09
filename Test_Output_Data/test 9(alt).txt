@@ -1,0 +1,16 @@
+FUNCTION strongweak(points) RETURNS STRING
+    IF points = 5
+	THEN
+	    RETURN "Strong"
+	ELSE
+	    IF points > 2 AND points < 5:
+		THEN
+		    RETURN "Medium"
+		ELSE
+		    RETURN "Weak"
+	    ENDIF	
+    ENDIF
+ENDFUNCTION
+
+CALL strongweak(4)
+CALL strongweak(3)

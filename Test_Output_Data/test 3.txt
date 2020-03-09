@@ -1,0 +1,8 @@
+OUTPUT "Do you like to code?"
+INPUT like
+IF like = "y"
+    THEN
+        OUTPUT "Good"
+    ELSE
+        OUTPUT "Why not."
+ENDIF
