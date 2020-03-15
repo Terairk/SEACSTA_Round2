@@ -1,4 +1,4 @@
-from functions import *
+from library import *
 
 filepath = input("Enter python filepath: ")
 writepath = input("Enter write filepath: ")
