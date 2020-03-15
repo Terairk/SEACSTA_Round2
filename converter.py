@@ -1,8 +1,9 @@
 from functions import *
 
-file = open("/Users/yahyahusain/Desktop/SEACSTA/Input_Data/test 7.py", "r")
-writefile = open("/Users/yahyahusain/Desktop/SEACSTA/Generated_Output_Data/example.txt", "w")
-
+filepath = input("Enter python filepath: ")
+writepath = input("Enter write filepath: ")
+file = open(filepath, "r")
+writefile = open(writepath, "w")
 
 for line in file.readlines():
     val = ParseLine(line)
